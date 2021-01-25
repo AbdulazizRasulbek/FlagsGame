@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#35454F"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <TextView
+        style="@style/Text.Center"
+        android:text="Find The Word"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/play_img"
+        style="@style/Button.Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn_play"
+        android:text="play" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/info_img"
+            style="@style/Button.Menu"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/bg_btn_info" />
+
+        <Space
+            android:layout_width="96dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/exit_img"
+            style="@style/Button.Menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn_exit"
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
